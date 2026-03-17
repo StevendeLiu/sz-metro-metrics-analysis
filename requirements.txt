@@ -1,0 +1,23 @@
+# Data processing
+pandas>=2.0.0
+numpy>=1.24.0
+
+# Graph / network analysis
+networkx>=3.0
+
+# Web scraping
+playwright>=1.40.0
+httpx>=0.27.0
+beautifulsoup4>=4.12.0
+
+# Data validation
+pydantic>=2.0.0
+
+# Visualization
+matplotlib>=3.7.0
+seaborn>=0.13.0
+geopandas>=0.14.0
+
+# Utilities
+python-dotenv>=1.0.0
+tqdm>=4.66.0

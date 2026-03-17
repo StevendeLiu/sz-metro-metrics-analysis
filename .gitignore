@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+dist/
+build/
+*.egg
+
+# Environments
+.env
+.venv/
+venv/
+
+# Data — keep structure, ignore large raw/processed files
+data/raw/*.json
+data/processed/*.csv
+data/processed/*.json
+
+# Keep scraped CSVs and figures
+!data/raw/stations.csv
+!data/raw/segments.csv
+!data/raw/station_districts.csv
+!data/raw/manual_transfers.csv
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db

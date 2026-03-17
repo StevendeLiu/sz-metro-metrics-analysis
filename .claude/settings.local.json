@@ -1,0 +1,27 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(wc -c /home/stevendeliu/pkuszh/Personal_Projects/.CLAUDE.md && xxd /home/stevendeliu/pkuszh/Personal_Projects/.CLAUDE.md | head -20)",
+      "WebSearch",
+      "WebFetch(domain:amap.apifox.cn)",
+      "WebFetch(domain:github.com)",
+      "WebFetch(domain:segmentfault.com)",
+      "WebFetch(domain:map.amap.com)",
+      "WebFetch(domain:www.cnblogs.com)",
+      "WebFetch(domain:blog.csdn.net)",
+      "WebFetch(domain:zhuanlan.zhihu.com)",
+      "WebFetch(domain:opendata.sz.gov.cn)",
+      "WebFetch(domain:bigscity-libcity-docs.readthedocs.io)",
+      "WebFetch(domain:www.szmc.net)",
+      "Bash(python3:*)",
+      "Bash(cat:*)",
+      "Bash(pip install:*)",
+      "Bash(python:*)",
+      "Bash(git status:*)",
+      "Bash(git config:*)",
+      "Read(//home/stevendeliu/**)",
+      "Bash(ls:*)",
+      "Bash(git init:*)"
+    ]
+  }
+}
